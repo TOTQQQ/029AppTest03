@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="@string/main_title"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#333333" />
+
+    <Button
+        android:id="@+id/btn_exp1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:minHeight="56dp"
+        android:text="@string/exp1_title"
+        android:textSize="16sp"
+        android:backgroundTint="#FF7043" />
+
+    <Button
+        android:id="@+id/btn_exp2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:minHeight="56dp"
+        android:text="@string/exp2_title"
+        android:textSize="16sp"
+        android:backgroundTint="#2196F3" />
+
+    <Button
+        android:id="@+id/btn_exp3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:minHeight="56dp"
+        android:text="@string/exp3_title"
+        android:textSize="16sp"
+        android:backgroundTint="#4CAF50" />
+
+    <Button
+        android:id="@+id/btn_exp4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:minHeight="56dp"
+        android:text="@string/exp4_title"
+        android:textSize="16sp"
+        android:backgroundTint="#9C27B0" />
+
+    <Button
+        android:id="@+id/btn_exp5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:minHeight="56dp"
+        android:text="@string/exp5_title"
+        android:textSize="16sp"
+        android:backgroundTint="#FF9800" />
+
+</LinearLayout>
